@@ -40,3 +40,53 @@
 .info-box:nth-of-type(2n) {
   background-color: var(--color-infobox-2-bg);
 }
+
+/* /////////Tilføjet selv/////////// */
+/* Make the image box the true positioning area */
+.info-graphic {
+  position: relative;
+  padding: 0; /* override teacher's 20px padding */
+  max-width: 1000px;
+  margin: 60px auto 80px auto;
+  overflow: hidden; /* keep hotspots inside rounded corners */
+}
+
+.info-graphic img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 24px; /* or var(--border-radius) if you use it */
+}
+
+/* Hotspots */
+.hotspot {
+  position: absolute;
+  z-index: 2;
+  border: 0;
+  cursor: pointer;
+  transform: translate(-50%, -50%); /* position by center */
+}
+
+/* ☀️ Sun */
+.hotspot.sun {
+  left: 30%;
+  top: 2.2%;
+  width: 7%;
+  height: 5%;
+}
+
+/* ⚡ Lightning */
+.hotspot.lightning {
+  left: 81%;
+  top: 7.2%;
+  width: 8%;
+  height: 3%;
+}
+
+/* 🧍 Body (character) */
+.hotspot.body {
+  left: 66%;
+  top: 21%;
+  width: 29%;
+  height: 15%;
+}
