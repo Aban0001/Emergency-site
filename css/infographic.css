@@ -65,28 +65,29 @@
   border: 0;
   cursor: pointer;
   transform: translate(-50%, -50%); /* position by center */
+  /* background-color: aqua; */
 }
 
-/* ☀️ Sun */
+/* Sun */
 .hotspot.sun {
   left: 30%;
   top: 2.2%;
   width: 7%;
-  height: 5%;
+  height: 8.5%;
 }
 
-/* ⚡ Lightning */
+/* Lightning */
 .hotspot.lightning {
   left: 81%;
-  top: 7.2%;
+  top: 10%;
   width: 8%;
-  height: 3%;
+  height: 8%;
 }
 
-/* 🧍 Body (character) */
+/* Body (character) */
 .hotspot.body {
   left: 66%;
-  top: 21%;
+  top: 28%;
   width: 29%;
-  height: 15%;
+  height: 25%;
 }
