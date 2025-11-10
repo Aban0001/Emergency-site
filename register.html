@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/layout.css" />
     <link rel="stylesheet" href="css/burger.css" />
     <link rel="stylesheet" href="css/cards.css" />
-    <link rel="stylesheet" href="css/form.css" />
+    <link rel="stylesheet" href="css/forms.css" />
     <link rel="icon" type="image/png" href="img/fav.png" />
     <title>Emergency Site</title>
   </head>
@@ -35,13 +35,49 @@
 
     <main>
       <h1>INDBERET</h1>
+
       <section id="form-section">
         <article id="form-info">
           <h2>Overskrift</h2>
           <p>Tekst</p>
         </article>
-        <form id="webform"></form>
+
+        <form id="webform">
+          <div class="form-group">
+            <label for="first_name">First name</label>
+            <input type="text" id="first_name" name="first_name" required />
+            <p class="error-message">Please enter a value</p>
+          </div>
+
+          <div class="form-group">
+            <label for="last_name">Last name</label>
+            <input type="text" id="last_name" name="last_name" required />
+            <p class="error-message">Please enter a value</p>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+            <p class="error-message">Please enter a value</p>
+          </div>
+
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required />
+            <p class="error-message">Please enter a value</p>
+          </div>
+
+          <div class="form-group">
+            <label for="terms">
+              <input type="checkbox" id="terms" name="accept_terms" value="yes" required />
+              Accept terms
+            </label>
+          </div>
+
+          <button>Sign up</button>
+        </form>
       </section>
+
       <section id="form-summary">
         <h2>Summary</h2>
         <article>
