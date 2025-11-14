@@ -79,6 +79,8 @@
   text-decoration: none;
   width: max-content;
   border-radius: var(--border-radius);
+  border: none;
+  cursor: pointer;
 }
 .news_card .cta_btn {
   background-color: var(--color-cta-newscard-bg);
@@ -90,4 +92,42 @@
 .cta_btn:after {
   content: "\2192";
   margin-left: 1rem;
+}
+
+/* Popover */
+[popover] {
+  opacity: 0;
+  rotate: 360deg;
+  transition: 0.5s allow-discrete;
+}
+
+[popover]:popover-open {
+  opacity: 1;
+  rotate: none;
+  margin: auto;
+  width: 50%;
+}
+
+@starting-style {
+  [popover]:popover-open {
+    rotate: -360deg;
+    opacity: 0;
+  }
+}
+
+/* Backdrop */
+::backdrop {
+  opacity: 0;
+  transition: 0.5s allow-discrete;
+  background: #0008;
+}
+
+:popover-open::backdrop {
+  opacity: 1;
+}
+
+@starting-style {
+  :popover-open::backdrop {
+    opacity: 0;
+  }
 }
