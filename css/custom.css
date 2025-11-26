@@ -67,3 +67,34 @@
   --color-infobox-1-bg: #fceb94;
   --color-infobox-2-bg: #def5db;
 }
+
+/*  Lightmode/Darkmode color  */
+html {
+  color-scheme: light;
+  --color-heading: light-dark(#5000ca, #e0d3ff); /* dark: #e0d3ff */
+  --color-text: light-dark(#555, #cdc7dc); /* dark: #cdc7dc */
+  --color-bg: light-dark(#fff, #222); /* dark: #222 */
+
+  color: var(--color-text);
+  background-color: var(--color-bg);
+}
+
+html.dark {
+  color-scheme: dark;
+}
+
+h1 {
+  color: var(--color-heading);
+}
+button {
+  border: none;
+  background: Canvas;
+  color: CanvasText;
+  border: 1px solid currentColor;
+  text-box: cap alphabetic;
+  padding: 1cap;
+  border-radius: 5px;
+  display: block;
+  cursor: pointer;
+  margin-block: 1.5rlh;
+}

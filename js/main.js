@@ -1,8 +1,8 @@
-// Sol
+// Sol Infografik //
 document.querySelector("#hotspotBtnSun").addEventListener("click", updateInfoboxSun);
-// Lyn
+// Lyn Infografik //
 document.querySelector("#hotspotBtnLightning").addEventListener("click", updateInfoboxLightning);
-// Krop
+// Krop Infografik //
 document.querySelector("#hotspotBtnBody").addEventListener("click", updateInfoboxBody);
 
 function updateInfoboxSun() {
@@ -70,4 +70,12 @@ function handleSubmit(event) {
   firstOutput.textContent = emailName;
 
   form.reset();
+}
+
+// Lightmode/Darkmode JavaScript //
+const root = document.querySelector("html");
+const btn = document.querySelector("toggle");
+
+function toogleDarkMode() {
+  root.classList.toggle("dark");
 }

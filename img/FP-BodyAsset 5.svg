@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 561.82 391.81">
+  <defs>
+    <filter id="AI_Shadow_2" x="-15%" y="-15%" width="140%" height="130%">
+      <feGaussianBlur in="SourceAlpha" result="blur" stdDeviation="6"/>
+      <feOffset dx="8" dy="8" in="blur" result="offsetBlurredAlpha"/>
+      <feMerge>
+        <feMergeNode in="offsetBlurredAlpha"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g id="ColorStroke">
+    <g id="Body" filter="url(#AI_Shadow_2)">
+      <path d="M215.89,47.57l102.05,5.46c19.69-10.05,16.95,19.71,16.95,19.71,111.77,57.28,80.51-66.85-9.22-37.26,22.06-20.29-21.79-3.86-29.25-6.13-17.49,8.09-33.19-26.71-33.19-26.71l-55.52,4.71,21.69,25.72-27.96-11.69c-28.96,11.83,7.92,17.57,14.45,26.19Z" fill="#3b2c26" stroke="#231f20" stroke-linecap="round" stroke-miterlimit="10" stroke-width="5"/>
+      <path d="M391.32,89.4c29.36-12.18,26.44,39.49-10.85,22.65-17.68,13.24-47.8,55.95-113.57,37.75,0,0-61.11,7.34-57.27-38.68.57-100.14,26.55-52.78,108.31-58.1,12.69-11.78,20.47,13.68,16.95,19.71,8.39,2.79,47.71,22.89,56.43,16.67Z" fill="#f6b889" stroke="#231f20" stroke-linecap="round" stroke-miterlimit="10" stroke-width="5"/>
+      <path d="M254.98,62.55c-2.09,20.71-19.47,20.29-25.21,11.36" fill="none" stroke="#231f20" stroke-linecap="round" stroke-miterlimit="10" stroke-width="5"/>
+      <path d="M302.4,63.74c4.12,15.91,19.73,26.3,26.92,18.01" fill="none" stroke="#231f20" stroke-linecap="round" stroke-miterlimit="10" stroke-width="5"/>
+      <path d="M242.38,88.33c11.38-1.54,7.41,22.72-4.65,13.09-7.35-3.7-.64-15.62,4.65-13.09Z" fill="#15191e" stroke="#231f20" stroke-linecap="round" stroke-miterlimit="10" stroke-width="5"/>
+      <path d="M310.17,87.43c11.38-1.54,7.41,22.72-4.65,13.09-7.35-3.7-.64-15.62,4.65-13.09Z" fill="#15191e" stroke="#231f20" stroke-linecap="round" stroke-miterlimit="10" stroke-width="5"/>
+      <path d="M282.4,94.85c-28.54-2.72-20.03,17.01,1,11.56" fill="none" stroke="#231f20" stroke-linecap="round" stroke-miterlimit="10" stroke-width="5"/>
+      <path d="M271.55,112.04c13.39-2.15,31.86,5.57,30.83,18.69,0,0-60.01.89-60.01.89.05-15.13,20.54-21.39,29.18-19.58Z" fill="none" stroke="#231f20" stroke-linecap="round" stroke-miterlimit="10" stroke-width="5"/>
+      <path d="M298.12,130.35c-5.15-9.13-27.31-16.83-30.7.34" fill="#e58a7c" stroke="#231f20" stroke-linecap="round" stroke-miterlimit="10" stroke-width="5"/>
+      <path d="M345.65,140.9c30.72,21.88,37.17,94.02,34.81,115.63,15.95,2.15-5.24-2.14-37.85,11.89-23.68,12.3-24.75-43.29-24.91-47.6,0,0-95.98,28.5-95.98,28.5l-2.6-21.09c35.78,1.92,47.85-44.43,26.27-50.86-44.6-16.45-77.62,48.4-74.09-13.94,0,0,60.79-17.19,60.79-17.19" fill="#f18733" stroke="#231f20" stroke-linecap="round" stroke-miterlimit="10" stroke-width="5"/>
+      <path d="M212.93,311.8c-8,29.93-29.59,59.62-38.3,56.51-2.26-44.2-98.84-26.83-54.87-7.02,121.71,79.47,54.35-32.22,210.55-62.97,13.92-12.37,37.91,47.22,37.91,47.22,17.91,59.23,127.32-26.62,146.56-27.8-1.11,21.98,37.7,15.53,37.7,15.53,6.83,9.58,6.83-7.33,6.83-7.33l-32.65-34.99-124.02,31.39-21.5-63.38-168.21,52.84Z" fill="#1e354a" stroke="#231f20" stroke-linecap="round" stroke-miterlimit="10" stroke-width="5"/>
+      <path d="M219.12,228.24l-137.88,13.81c-6.45-5.37-42.17-8.62-42.17-8.62-54.84-15.15-4.33,11.46-4.33,11.46-52.31-14.71-5.77,5.5-5.77,5.5-50.87-12.63.82,8.86.82,8.86-64.67,21.08,9.28,8.69,9.28,8.69-18.4,26.82,8.66.13,8.66.13l173.99-18.73" fill="#f6b889" stroke="#231f20" stroke-linecap="round" stroke-miterlimit="10" stroke-width="5"/>
+      <path d="M169.7,164.56c-97.42,4.48-58.04,10.54-143.41,7.23-48.34,2.16,0,5.77,0,5.77-47.62,4.33-9.02,9.02-9.02,9.02-15.21,26.2,8.99,2.2,9.38,0-14.13,27.3-1.3,12.27,3.97,5.77.72,16.96,2.96,2.9,2.96,2.9l138.79-.57" fill="#f6b889" stroke="#231f20" stroke-linecap="round" stroke-miterlimit="10" stroke-width="5"/>
+      <path d="M241.01,104.05c-6.31.41-16.34,11.99-5.27,19.83.05-.26,3.53,2.04-4.32,9.04-3.56,2.61-1.16,6.68,3.52,7.62-21.86,1.38,1.69-13.64-3.69-16.31-12.37-9.87,1.15-21.6,9.76-20.19Z" fill="#5fe1fa" stroke="#231f20" stroke-linecap="round" stroke-miterlimit="10"/>
+      <path d="M309.99,104.59c7.09.24,20.29,11.37,6.43,19.25-7,3.75,18.64,12.07.98,16.17,28.6-.03-2.75-11.78,4.5-15.83,15.75-10.23-2.98-21.17-11.91-19.59Z" fill="#5fe1fa" stroke="#231f20" stroke-linecap="round" stroke-miterlimit="10"/>
+    </g>
+  </g>
+</svg>
