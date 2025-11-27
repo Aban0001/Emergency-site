@@ -70,25 +70,18 @@
 
 /*  Dark mode   */
 html.dark {
-  color-scheme: dark;
-
-  --color-bg: #1f1f1f;
-  --color-text: #e6e6e6;
-  --color-text-inverted: #ffffff;
-
-  --color-card-bg: #222;
-  --color-info-bg: #141414;
-  --color-infobox-1-bg: #2a2a2a;
-  --color-infobox-2-bg: #313131;
-
-  --color-headline-bg: #fffae2;
-  --color-headline-text-page: #000;
-
-  --color-cta-card-bg: #6f90eb;
-  --color-cta-newscard-bg: #ffa680;
-  --color-cta-newscard-bg-inverted: #6f90eb;
-
-  /* news cards */
-  --color-news-bg: #1e1e1e;
-  --color-news-bg-inverted: #2b2b2b;
+  /* baggrund og tekst */
+  --color-bg: #222; /* side baggrund mørk */
+  --color-text: #e6e6e6; /* generel tekst lys */
+  /* kort / cards */
+  --color-card-bg: #2b2b2b;
+  /* headlines */
+  --color-headline-bg: #111;
+  --color-headline-text-page: #fff;
+  /* news / infobox */
+  --color-news-bg: #2a2a30;
+  --color-news-bg-inverted: #38383f;
+  /* CTA colors (tilpas hvis nødvendigt) */
+  --color-cta-card-bg: #ff7b3a; /* prøv en varm orange på mørk baggrund */
+  --color-cta-newscard-bg: #4b6ef6;
 }
