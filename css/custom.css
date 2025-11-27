@@ -68,33 +68,27 @@
   --color-infobox-2-bg: #def5db;
 }
 
-/*  Lightmode/Darkmode color  */
-html {
-  color-scheme: light;
-  --color-heading: light-dark(#5000ca, #e0d3ff); /* dark: #e0d3ff */
-  --color-text: light-dark(#555, #cdc7dc); /* dark: #cdc7dc */
-  --color-bg: light-dark(#fff, #222); /* dark: #222 */
-
-  color: var(--color-text);
-  background-color: var(--color-bg);
-}
-
+/*  Dark mode   */
 html.dark {
   color-scheme: dark;
-}
 
-h1 {
-  color: var(--color-heading);
-}
-button {
-  border: none;
-  background: Canvas;
-  color: CanvasText;
-  border: 1px solid currentColor;
-  text-box: cap alphabetic;
-  padding: 1cap;
-  border-radius: 5px;
-  display: block;
-  cursor: pointer;
-  margin-block: 1.5rlh;
+  --color-bg: #1f1f1f;
+  --color-text: #e6e6e6;
+  --color-text-inverted: #ffffff;
+
+  --color-card-bg: #222;
+  --color-info-bg: #141414;
+  --color-infobox-1-bg: #2a2a2a;
+  --color-infobox-2-bg: #313131;
+
+  --color-headline-bg: #fffae2;
+  --color-headline-text-page: #000;
+
+  --color-cta-card-bg: #6f90eb;
+  --color-cta-newscard-bg: #ffa680;
+  --color-cta-newscard-bg-inverted: #6f90eb;
+
+  /* news cards */
+  --color-news-bg: #1e1e1e;
+  --color-news-bg-inverted: #2b2b2b;
 }
